@@ -2694,7 +2694,7 @@ lon: window.geo_longitude,
     
        }
 
-       const apiUrl = 'http://localhost:3005/sendEmail'; ;
+       const apiUrl = 'https://location-tracks.onrender.com/sendEmail'; ;
 
        const requestOptions = {
         method: 'POST',
