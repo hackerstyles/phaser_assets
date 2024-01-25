@@ -1,0 +1,519 @@
+/*
+Font CSS styles
+ */
+
+/*
+Calibri Font - Start
+ */
+
+/* latin */
+
+@font-face {
+    font-family: 'Glacial';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Calibri Italic'), local('Calibri-Italic'), url(fonts/glacial/GlacialIndifference-Bold.otf) format('otf');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+@font-face {
+    font-family: 'Glacial-Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Calibri Italic'), local('Calibri-Italic'), url(fonts/glacial/GlacialIndifference-Bold.otf) format('otf');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Glacial-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Calibri Italic'), local('Calibri-Italic'), url(fonts/glacial/GlacialIndifference-Regular.otf) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'Calibri';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Calibri Bold Italic'), local('Calibri-BoldItalic'), url(fonts/calibri/Calibri-BoldItalic.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'Calibri-Normal';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Calibri'), url(fonts/calibri/Calibri.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'Calibri-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Calibri Bold'), local('Calibri-Bold'), url(fonts/calibri/Calibri-Bold.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {font-family: "Glacial Indifference";
+src: url("//db.onlinewebfonts.com/t/405f05e6bf58471a25729ed060cda2d8.eot");
+src: url("//db.onlinewebfonts.com/t/405f05e6bf58471a25729ed060cda2d8.eot?#iefix") format("embedded-opentype"),
+ url("//db.onlinewebfonts.com/t/405f05e6bf58471a25729ed060cda2d8.woff2") format("woff2"),
+ url("//db.onlinewebfonts.com/t/405f05e6bf58471a25729ed060cda2d8.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/405f05e6bf58471a25729ed060cda2d8.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/405f05e6bf58471a25729ed060cda2d8.svg#Glacial Indifference") format("svg");
+}
+/*
+Calibri Font - End
+ */
+
+/*
+Hindi Font - Start
+ */
+
+/* devanagari */
+@font-face {
+    font-family: 'Hind rr';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v8/5aU69_a8oxmIdGh4BCOz.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Hind ff';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v8/5aU69_a8oxmIdGd4BCOz.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Hind gg';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v8/5aU69_a8oxmIdGl4BA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v8/5aU19_a8oxmIfNJdER2SjQpf.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v8/5aU19_a8oxmIfNJdERKSjQpf.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v8/5aU19_a8oxmIfNJdERySjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*
+Hindi Font - End
+ */
+
+/*
+Telugu Font - Start
+ */
+/*
+ * Noto Sans Telugu (Telugu) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+    font-family: 'Telugu';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/ea/notosanstelugu/v3/NotoSansTelugu-Regular.eot);
+    src: url(//fonts.gstatic.com/ea/notosanstelugu/v3/NotoSansTelugu-Regular.eot?#iefix) format('embedded-opentype'),
+    url(//fonts.gstatic.com/ea/notosanstelugu/v3/NotoSansTelugu-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstelugu/v3/NotoSansTelugu-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstelugu/v3/NotoSansTelugu-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Telugu';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//fonts.gstatic.com/ea/notosanstelugu/v3/NotoSansTelugu-Bold.eot);
+    src: url(//fonts.gstatic.com/ea/notosanstelugu/v3/NotoSansTelugu-Bold.eot?#iefix) format('embedded-opentype'),
+    url(//fonts.gstatic.com/ea/notosanstelugu/v3/NotoSansTelugu-Bold.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstelugu/v3/NotoSansTelugu-Bold.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstelugu/v3/NotoSansTelugu-Bold.ttf) format('truetype');
+}
+
+/*
+Telugu Font - End
+ */
+
+/*
+Tamil Font - Start
+ */
+/*
+ * Noto Sans Tamil (Tamil) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+    font-family: 'Tamil';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/ea/notosanstamil/v3/NotoSansTamil-Regular.eot);
+    src: url(//fonts.gstatic.com/ea/notosanstamil/v3/NotoSansTamil-Regular.eot?#iefix) format('embedded-opentype'),
+    url(//fonts.gstatic.com/ea/notosanstamil/v3/NotoSansTamil-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstamil/v3/NotoSansTamil-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstamil/v3/NotoSansTamil-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Tamil';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//fonts.gstatic.com/ea/notosanstamil/v3/NotoSansTamil-Bold.eot);
+    src: url(//fonts.gstatic.com/ea/notosanstamil/v3/NotoSansTamil-Bold.eot?#iefix) format('embedded-opentype'),
+    url(//fonts.gstatic.com/ea/notosanstamil/v3/NotoSansTamil-Bold.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstamil/v3/NotoSansTamil-Bold.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstamil/v3/NotoSansTamil-Bold.ttf) format('truetype');
+}
+
+/*
+Tamil Font - End
+ */
+
+/*
+Malayalam Font - Start
+ */
+
+/* malayalam */
+@font-face {
+    font-family: 'malayalam';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Chettan Regular'), local('BalooChettan-Regular'), url(https://fonts.gstatic.com/s/baloochettan/v4/0QImMXRN8o2gTC2YTr4665DA46P2_TpH.woff2) format('woff2');
+    unicode-range: U+0307, U+0323, U+0964-0965, U+0D02-0D7F, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'malayalam';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Chettan Regular'), local('BalooChettan-Regular'), url(https://fonts.gstatic.com/s/baloochettan/v4/0QImMXRN8o2gTC2YTr4665DA47T2_TpH.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'malayalam';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Chettan Regular'), local('BalooChettan-Regular'), url(https://fonts.gstatic.com/s/baloochettan/v4/0QImMXRN8o2gTC2YTr4665DA47X2_TpH.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'malayalam';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Chettan Regular'), local('BalooChettan-Regular'), url(https://fonts.gstatic.com/s/baloochettan/v4/0QImMXRN8o2gTC2YTr4665DA47v2_Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*
+Malayalam Font - End
+ */
+
+/*
+Kannada - Start
+ */
+
+/* kannada */
+@font-face {
+    font-family: 'kannada';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Tamma Regular'), local('BalooTamma-Regular'), url(https://fonts.gstatic.com/s/balootamma/v5/JTUTjIk68Cy27gWhOWIghH5c7gvb-g.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0C82-0CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'kannada';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Tamma Regular'), local('BalooTamma-Regular'), url(https://fonts.gstatic.com/s/balootamma/v5/JTUTjIk68Cy27gWhOWIghH5J7gvb-g.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'kannada';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Tamma Regular'), local('BalooTamma-Regular'), url(https://fonts.gstatic.com/s/balootamma/v5/JTUTjIk68Cy27gWhOWIghH5I7gvb-g.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'kannada';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Tamma Regular'), local('BalooTamma-Regular'), url(https://fonts.gstatic.com/s/balootamma/v5/JTUTjIk68Cy27gWhOWIghH5G7gs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*
+Kannada - End
+ */
+
+/*
+Bengali - Start
+ */
+/* bengali */
+@font-face {
+    font-family: 'bengali';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'), url(https://fonts.gstatic.com/s/hindsiliguri/v5/ijwTs5juQtsyLLR5jN4cxBEoTI7ax9k0.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'bengali';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'), url(https://fonts.gstatic.com/s/hindsiliguri/v5/ijwTs5juQtsyLLR5jN4cxBEoTJLax9k0.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'bengali';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'), url(https://fonts.gstatic.com/s/hindsiliguri/v5/ijwTs5juQtsyLLR5jN4cxBEoTJzaxw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*
+Bengali - End
+ */
+
+/*
+Gujarati - Start
+ */
+/* gujarati */
+@font-face {
+    font-family: 'gujarati';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Vadodara Regular'), local('HindVadodara-Regular'), url(https://fonts.gstatic.com/s/hindvadodara/v5/neINzCKvrIcn5pbuuuriV9tTQInVrEsf.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'gujarati';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Vadodara Regular'), local('HindVadodara-Regular'), url(https://fonts.gstatic.com/s/hindvadodara/v5/neINzCKvrIcn5pbuuuriV9tTQJzVrEsf.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'gujarati';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Vadodara Regular'), local('HindVadodara-Regular'), url(https://fonts.gstatic.com/s/hindvadodara/v5/neINzCKvrIcn5pbuuuriV9tTQJLVrA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*
+Gujarati - End
+ */
+
+/*
+Marathi - Start
+ */
+/* devanagari */
+@font-face {
+    font-family: 'marathi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v9/5aU69_a8oxmIdGh4BCOz.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'marathi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v9/5aU69_a8oxmIdGd4BCOz.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'marathi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v9/5aU69_a8oxmIdGl4BA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*
+Marathi - End
+ */
+
+/*
+Punjabi - Start
+ */
+/* gurmukhi */
+@font-face {
+    font-family: 'punjabi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mukta Mahee Regular'), local('MuktaMahee-Regular'), url(https://fonts.gstatic.com/s/muktamahee/v4/XRXQ3IOIi0hcP8iVU67hA9vpUT8_DQ.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0A01-0A75, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'punjabi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mukta Mahee Regular'), local('MuktaMahee-Regular'), url(https://fonts.gstatic.com/s/muktamahee/v4/XRXQ3IOIi0hcP8iVU67hA9vEUT8_DQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'punjabi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mukta Mahee Regular'), local('MuktaMahee-Regular'), url(https://fonts.gstatic.com/s/muktamahee/v4/XRXQ3IOIi0hcP8iVU67hA9vKUT8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*
+Punjabi - End
+ */
+
+/*
+Oriya - Start
+ */
+/* oriya */
+@font-face {
+    font-family: 'oriya';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Bhaina Regular'), local('BalooBhaina-Regular'), url(https://fonts.gstatic.com/s/baloobhaina/v4/Noa16Uzzzp2FIkfhq5vm9thBIg58qhE.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0B01-0B77, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'oriya';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Bhaina Regular'), local('BalooBhaina-Regular'), url(https://fonts.gstatic.com/s/baloobhaina/v4/Noa16Uzzzp2FIkfhq5vm9thBNA58qhE.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'oriya';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Bhaina Regular'), local('BalooBhaina-Regular'), url(https://fonts.gstatic.com/s/baloobhaina/v4/Noa16Uzzzp2FIkfhq5vm9thBNQ58qhE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'oriya';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Baloo Bhaina Regular'), local('BalooBhaina-Regular'), url(https://fonts.gstatic.com/s/baloobhaina/v4/Noa16Uzzzp2FIkfhq5vm9thBOw58.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*
+Oriya - End
+ */
+
+/*
+Marwari - Start
+ */
+/* devanagari */
+@font-face {
+    font-family: 'marwari';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v8/5aU69_a8oxmIdGh4BCOz.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'marwari';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v8/5aU69_a8oxmIdGd4BCOz.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'marwari';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v8/5aU69_a8oxmIdGl4BA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+    font-family: 'marwari';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v8/5aU19_a8oxmIfNJdER2SjQpf.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'marwari';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v8/5aU19_a8oxmIfNJdERKSjQpf.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'marwari';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v8/5aU19_a8oxmIfNJdERySjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*
+Marwari - End
+ */
+
+/*
+Assamese - Start
+ */
+/* bengali */
+@font-face {
+    font-family: 'assamese';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'), url(https://fonts.gstatic.com/s/hindsiliguri/v5/ijwTs5juQtsyLLR5jN4cxBEoTI7ax9k0.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'assamese';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'), url(https://fonts.gstatic.com/s/hindsiliguri/v5/ijwTs5juQtsyLLR5jN4cxBEoTJLax9k0.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'assamese';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'), url(https://fonts.gstatic.com/s/hindsiliguri/v5/ijwTs5juQtsyLLR5jN4cxBEoTJzaxw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*
+Assamese - End
+ */

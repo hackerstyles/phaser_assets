@@ -1,0 +1,265 @@
+
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+      <meta charset="UTF-8" />
+      <title>Shriram Life Insurance</title>
+      <meta name="description" content="PNB-Metlife">
+      <meta name="author" content="AnoorCloud">
+      <link rel="icon" href="assets/images/common/Anur_logo.png" type="image/png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+
+      <meta property="og:type"               content="article" />
+      <meta property="og:title"              content="Speech To Text"/>
+      <meta property="og:image"              content="assets/images/common/Anur_logo.png" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+      <meta name="HandheldFriendly" content="true" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <link rel="stylesheet" href="assets/css/common/font.css">
+      <link rel="stylesheet" media="all" href="assets/css/common/game.css">
+      <script type="text/javascript" src="assets/js/common/jquery/jquery.min.js"></script>
+      <script type="text/javascript" src="assets/js/common/anoor/anoor.video.engine.js"></script>
+      <script type="text/javascript" src="assets/js/common/camera/camera_utility.js"></script>
+     <script type="text/javascript" src="assets/js/common/camera/adapter-latest.js"></script>
+      <script type="text/javascript" src="assets/js/common/assets/common_assets.js"></script>
+
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script type="text/javascript" src="assets/js/common/anoor/init.js"></script>
+
+
+   </head>
+   <style>
+
+      #record_image{
+   display: block;
+ margin: auto;
+/*margin-top: -63px;
+    margin-left: 121px;
+    width: 105px;*/
+
+ /* width:40%;*/
+
+}
+
+#video_id{
+position: absolute;
+/*top: 90%;
+left: 10%;
+width:100%;*/
+
+display: none;
+
+}
+      #record_image_ios{
+   display: block;
+ margin: auto;
+
+
+  /*width:40%;*/
+
+}
+
+#video_id_ios{
+position: absolute;
+/*top: 90%;
+left: 10%;
+width:100%;*/
+
+display: none;
+
+}
+
+#gen-input_personal
+{
+  display: none;
+padding-right: 100px;
+padding-left: 5px;
+}
+
+#gen-input_personal
+         {
+         background: url(assets/images/common/drop_down_bg.png) no-repeat right;
+         -webkit-appearance: none;
+         background-position-x: 564px;
+         text-align-last: center;
+         border: 1px;
+         cursor: hand;
+         }
+
+ #gen-input_personal option {
+
+/*background-color: #e5eef6;*/
+
+  font-size:20px;
+;}
+
+
+optgroup { font-size:20px; }
+
+   </style>
+
+   <body class="g-body">
+      <div id="outer_div">
+
+        <script type="text/javascript">
+           function disagree_dd(sysLang,back_scr)
+            {
+              var reason_text = '';
+              if(sysLang == 'eng')
+              {
+               reason_text =  'Reason for disagreement';
+              }
+              else if(sysLang == 'hin')
+              {
+                reason_text =  'असहमति का कारण';
+              }
+              else if(sysLang == 'ben')
+              {
+                reason_text =  'মতবিরোধের কারণ';
+              }
+              else if(sysLang == 'pun')
+              {
+                reason_text =  'ਅਸਹਿਮਤੀ ਦਾ ਕਾਰਨ';
+              }
+if(back_scr == 4){
+  console.log('back_scr',back_scr);
+                var url = "JsonFiles/personal_json.json";
+              }
+              else if(back_scr == 5)
+              {
+                console.log('back_scr',back_scr);
+                var url = "JsonFiles/policy_json.json";
+                  //  var url = "https://dev.anoorcloud.in/abhi-pivc-new/portal/api/v1/test";
+              }
+              else if(back_scr == 13)
+              {
+                 console.log('back_scr',back_scr);
+                 var url = "JsonFiles/policy_combo_json.json";
+              }
+              else if(back_scr == 6)
+              {
+                 $('#gen-input_personal').empty();
+                $('#gen-input_personal').append('<option value="" disabled selected>'+reason_text+'</option>');
+                console.log('back_scr',back_scr);
+                var rider_info = window.rider_details;
+                 $.each(rider_info, function (index1, value) {
+                          $('#gen-input_personal').append('<option value="' + value.rider_name + '">' + value.rider_name + '</option>');
+                  });
+
+              }
+
+
+if(back_scr == 4 || back_scr == 5 || back_scr == 13){
+                $('#gen-input_personal').empty();
+
+                $('#gen-input_personal').append('<option value="" disabled selected>'+reason_text+'</option>');
+                    $.getJSON(url, function (data) {
+                        $.each(data, function (index, value) {
+                            // APPEND OR INSERT DATA TO SELECT ELEMENT.
+                            if (sysLang == 'eng')
+                                $('#gen-input_personal').append('<option value="' + value.value_eng + '">' + value.value_eng + '</option>');
+                            else if (sysLang == 'hin')
+                                $('#gen-input_personal').append('<option value="' + value.value_hin + '">' + value.value_hin + '</option>');
+                              else if (sysLang == 'ben')
+                                $('#gen-input_personal').append('<option value="' + value.value_ben + '">' + value.value_ben + '</option>');
+                              else if (sysLang == 'pun')
+                                $('#gen-input_personal').append('<option value="' + value.value_pun + '">' + value.value_pun + '</option>');
+
+// else if(back_scr == 5)
+// {
+//   console.log('back_scr',back_scr);
+//                             if (sysLang == 'eng')
+//                                 $('#gen-input_personal').append('<option value="' + value.value_eng + '">' + value.value_policy_eng + '</option>');
+//                             else if (sysLang == 'hin')
+//                                 $('#gen-input_personal').append('<option value="' + value.value_eng + '">' + value.value_policy_hin + '</option>');
+// }
+                        });
+                    });
+}
+            }
+        </script>
+
+
+
+<!-- PERSONAL DISAGREE -->
+ <div id="divOuter_salary">
+
+        <select id="gen-input_personal">
+        <!-- <option value="" disabled selected>Reason for disagreement</option> -->
+
+        </select>
+        </div>
+
+<!-- <script type="text/javascript">
+
+ </script> -->
+         <script type="text/javascript">
+/*
+            $(document).ready(function(){
+
+                $.getScript( "assets/product_assets/product_1/js/flow_assets_init.js",  function(){
+                    // Load card workflow js
+                    $.getScript( "assets/product_assets/product_1/js/flow_init.js",  function(){
+
+                  $.getScript( "assets/product_assets/product_1/js/flow_eng_normal.js",  function(){
+
+                     $("#loading_div").hide();
+                            $.getScript( "assets/js/common/anoor/game.js", function(){ } );
+                     });
+                  });
+
+            });
+
+            });
+*/
+
+
+
+
+
+         </script>
+
+         <div id="loading_div">
+            <img src="assets/images/common/arrow_horizontal_loader.gif" alt="loading..." id="loading_div_img"/>
+         </div>
+
+
+
+      </div>
+         <script type="text/javascript">
+
+           jQuery(function() {
+
+          if(navigator.userAgent.indexOf("Trident") > -1)
+            {
+            alert("Chrome on Android / Safari on iOS are the recommended browsers for this PIVC . If you experience any issues please try the link in Chrome/Safari and complete the process.");
+            }
+           });
+
+
+         </script>
+
+      <div id="video_id">
+   <label  for="file-input">
+    <img id="record_image" src="assets/images/common/record.jpg"/>
+  </label>
+
+<input type="file" style="display: none;" id="file-input" accept="video/*" capture="user">
+</div>
+
+     <div id="video_id_ios">
+   <label  for="file-input_ios">
+    <!-- <img id="record_image_ios" src="assets/images/common/product/hin/record_hin.png"/> -->
+  </label>
+
+<input type="file" style="display: none;" id="file-input_ios" accept="video/*" capture="user">
+</div>
+   </body>
+</html>
